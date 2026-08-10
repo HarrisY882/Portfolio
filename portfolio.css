@@ -1,0 +1,81 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #6F1A07;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 1s;
+}
+.sidebar a{padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #F7F3E3;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar a:hover{
+    color: #A8763E;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background-color: #A8763E;
+  border-radius: 20px;
+  color: #F7F3E3;
+  padding: 10px 15px;
+  
+  border: none;
+}
+.openbtn:hover {
+  
+  color: #ffdfbb;
+}
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.nameq h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffdfbb;
+}
+
+.graph {
+    background-color: rgb(0, 0, 0);
+    border:5px  wheat;
+    text-align: center;
+    border-radius: 20px;
+}
+body{
+
+    background-color: #2b2118;
+}
+.reveal-text {
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.reveal-text span {
+  display: inline-block;
+}
+
+.letter {
+  display: inline-block;
+  transform-origin: 50% 100%;
+}
