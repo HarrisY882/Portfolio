@@ -13,3 +13,26 @@
 </ul>    
 
 </header>
+<body>
+<div class="indiv">
+<div class="middledivs">
+    My Favourite Albums:
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/3Ks0eeH0GWpY4AU20D5HPD?utm_source=generator&si=cabc4d0dcc174732" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/7KtyUeiJidoZO0ybxBXw0Q?utm_source=generator&si=b1f90ec5790446a2" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/79dL7FLiJFOO0EoehUHQBv?utm_source=generator&si=ee410fe5a5d94807" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/1hpn4Spfmw80nqRWAd8Zk1?utm_source=generator&si=dd1b58d0f7944c29" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/3CCnGldVQ90c26aFATC1PW?utm_source=generator&si=40d499e0e4994942" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+<div class="middledivs1">
+    My Recent Movies:
+    <div id="letterboxd-embed-wrapper-tc">Loading...</div>
+<script>
+fetch('https://lb-embed-content.bokonon.dev?username=Harris01101')
+.then(response => response.text())
+.then(data => {
+document.getElementById('letterboxd-embed-wrapper-tc').innerHTML = data;
+});
+</script>
+</div>
+
+</body>
